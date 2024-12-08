@@ -76,6 +76,7 @@ python src/create_gif.py
 >> 🖼️ Output
 
 The training process is visualized as a GIF:
+![Universal Approximation Theorem With B-Splines Visualization](assets/universal_approximation1hiddenLayer.gif)
 
 
 # Steps to make and update this repository
