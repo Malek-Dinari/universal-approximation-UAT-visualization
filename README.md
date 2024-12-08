@@ -23,9 +23,11 @@ In this project, we:
 - Install dependencies:
   ```bash
   pip install -r requirements.txt
+  ```
 
 
 ## **Repository Structure**
+```plaintext
 universal-approximation-UAT-visualization/
 │
 ├── data/                           # datasets
@@ -43,50 +45,56 @@ universal-approximation-UAT-visualization/
 ├── README.md                       # Detailed project documentation
 ├── requirements.txt                # List of Python dependencies
 └── universal_approximation.py      # Aggregated script (all-in-one)
+```
 
 
 Usage
 Generate the dataset:
 
-'''bash
+```bash
 
 python src/generate_dataset.py
-'''
+```
+
 
 Train and visualize:
 
-'''bash
+```bash
 
 python src/train_and_visualize.py
-'''
+```
+
 
 Create the GIF:
 
-'''bash
+```bash
 
 python src/create_gif.py
-'''
-🖼️ Output
+```
+
+
+>> 🖼️ Output
+
 The training process is visualized as a GIF:
 
 
-## Steps to make and update this repository
+# Steps to make and update this repository
 
 1. **Initialize the Repository**
 
-Start with git init and set up a clean directory structure as shown above.
+  Start with git init and set up a clean directory structure as shown above.
 
 
 
 2. **Incremental Commits Plan**
 
-Commit 1: Add generate_dataset.py to create the dataset for f(x).
+  Commit 1: Add generate_dataset.py to create the dataset for f(x).
 
 
 
 
-## 🛠️ Extensions
-This repository will soon include:
+# 🛠️ Extensions
+  This repository will soon include:
 
   1. Kolmogorov–Arnold representation.
   2. Approximation using B-Splines.
@@ -94,6 +102,6 @@ This repository will soon include:
   ...
 
     
-📜 License
-This project is licensed under the MIT License.
+## 📜 License
+  This project is licensed under the MIT License.
 
