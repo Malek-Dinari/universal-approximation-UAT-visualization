@@ -39,16 +39,17 @@ universal-approximation-UAT-visualization/
 │   ├── K-A-vs-NN/                           # New subfolder for Kolmogorov-Arnold vs NN representation
 │   │   ├── ka_representation.py             # K-A approximation script
 │   │   ├── nn-representation.py             # NN approximation script (MLP model)
-        └── ka-vs-nn-mse-create-animation.py # script for K-A approx. (200 epochs) to then compare it with NN's
+        ├── ka-net-create-animation.py       # script for K-A approx. (200 epochs) to then compare it with NN's
+        └── ka-net-vs-nn-mse_comparison-create_gif.py # script to generate graphs for ka repr to approximate f with n control points
 │
-├── assets/                         # Saved artifacts for the README
-│   └── example.gif                 # Example GIF for visualization
+├── assets/                                  # Saved artifacts for the README
+│   └── example.gif                          # Example GIF for visualization
 │
-├── .gitignore                      # Ignoring unnecessary files
-├── LICENSE                         # Repository license (MIT)
-├── README.md                       # Detailed project documentation
-├── requirements.txt                # List of Python dependencies
-└── universal_approximation.py      # Aggregated script (all-in-one)
+├── .gitignore                               # Ignoring unnecessary files
+├── LICENSE                                  # Repository license (MIT)
+├── README.md                                # Detailed project documentation
+├── requirements.txt                         # List of Python dependencies
+└── universal_approximation.py               # Aggregated script (all-in-one)
 ```
 
 
@@ -104,7 +105,9 @@ The training process is visualized as a GIF:
   - [x] 1. Kolmogorov–Arnold representation.
   - [x] 2. Approximation using B-Splines.
   - [ ] 3. Comparisons of traditional vs modern methods.
-  ...
+  - [ ] 4. Improving the current K-A approximation with more trainable control points and parameters
+  - [ ] 5. Benchmarking K-A vs MLP/NN especially for deep multi-layer nets
+  - 6. ...
 
     
 ## 📜 License
