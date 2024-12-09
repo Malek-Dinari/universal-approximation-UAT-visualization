@@ -36,6 +36,9 @@ universal-approximation-UAT-visualization/
 │   ├── build_model.py              # Defines the neural network architecture
 │   ├── train_and_visualize.py      # Training loop and frame generation
 │   ├── create_gif.py               # Combines frames into a GIF
+│   ├── K-A-vs-NN/                  # New subfolder for Kolmogorov-Arnold vs NN representation
+│   │   ├── ka_representation.py    # K-A approximation script
+│   │   └── nn-representation.py    # NN approximation script (MLP model)
 │
 ├── assets/                         # Saved artifacts for the README
 │   └── example.gif                 # Example GIF for visualization
@@ -97,9 +100,9 @@ The training process is visualized as a GIF:
 # 🛠️ Extensions
   This repository will soon include:
 
-  1. Kolmogorov–Arnold representation.
-  2. Approximation using B-Splines.
-  3. Comparisons of traditional vs modern methods.
+  - [x] 1. Kolmogorov–Arnold representation.
+  - [x] 2. Approximation using B-Splines.
+  - [ ] 3. Comparisons of traditional vs modern methods.
   ...
 
     
