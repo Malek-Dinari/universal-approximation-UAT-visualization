@@ -112,11 +112,11 @@ The training process is visualized as a GIF:
 
 > ![K-A approximating f(x)=sin(2*pi*x) using the ka-representation python script](assets/K-A-approx1.png)
 
-  >> **K-A approximating f(x)=sin(2*pi*x) using the ka-representation python script with 3 control points (splines with degree 3)**
+  >> **K-A approximating f(x)=sin(2*pi*x) using the ka-net-vs-nn-mse_comparison-create_gif python script with 3 control points (splines with degree 3)**
 
 > ![K-A approximating f(x)=sin(2*pi*x) using the ka-representation python script with 3 control points (splines with degree 3)](assets/3-cntrl-pts_K-A-N-approximation.png)
 
-  >>> **MSE of K-A approximation of f(x)=sin(2*pi*x) using the ka-representation python script with 3 control points (splines with degree 3)**
+  >>> **MSE of K-A approximation of f(x)=sin(2*pi*x) using the ka-net-vs-nn-mse_comparison-create_gif python script with 3 control points (splines with degree 3)**
 
 >  >> ![MSE of K-A approximation of f(x)=sin(2*pi*x) using the ka-representation python script with 3 control points (splines with degree 3)](assets/3-cntrl-pts_K-A-N-approximation-MSE.png)
 
