@@ -84,6 +84,9 @@ The training process is visualized as a GIF:
 ![Universal Approximation Theorem With B-Splines Visualization](assets/universal_approximation1hiddenLayer.gif)
 
 
+![UAT NN Loss 1](assets/lossNN1.png)
+
+
 # Steps to make and update this repository
 
 1. **Initialize the Repository**
