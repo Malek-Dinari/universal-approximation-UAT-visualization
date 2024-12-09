@@ -108,9 +108,17 @@ The training process is visualized as a GIF:
 
   - Example of current output for the K-A scripts:
   
-  > ![K-A approximating f(x)=sin(2*pi*x) using the ka-representation python script](assets/K-A-approx1.png)
-  >> ![K-A approximating f(x)=sin(2*pi*x) using the ka-representation python script with 3 control points (splines with degree 3)](assets/3-cntrl-pts_K-A-N-approximation-MSE.png)
-  >>> ![MSE of K-A approximation of f(x)=sin(2*pi*x) using the ka-representation python script with 3 control points (splines with degree 3)](assets/K-A-approx1.png)
+  > **K-A approximating f(x)=sin(2*pi*x) using the ka-representation python script**
+
+> ![K-A approximating f(x)=sin(2*pi*x) using the ka-representation python script](assets/K-A-approx1.png)
+
+  >> **K-A approximating f(x)=sin(2*pi*x) using the ka-representation python script with 3 control points (splines with degree 3)**
+
+> ![K-A approximating f(x)=sin(2*pi*x) using the ka-representation python script with 3 control points (splines with degree 3)](assets/3-cntrl-pts_K-A-N-approximation-MSE.png)
+
+  >>> **MSE of K-A approximation of f(x)=sin(2*pi*x) using the ka-representation python script with 3 control points (splines with degree 3)**
+
+>  >> ![MSE of K-A approximation of f(x)=sin(2*pi*x) using the ka-representation python script with 3 control points (splines with degree 3)](assets/K-A-approx1.png)
 
   - [ ] 4. Improving the current K-A approximation with more trainable control points and parameters
   - [ ] 5. Benchmarking K-A vs MLP/NN especially for deep multi-layer nets
