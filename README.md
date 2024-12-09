@@ -30,15 +30,16 @@ In this project, we:
 ```plaintext
 universal-approximation-UAT-visualization/
 │
-├── data/                           # datasets
-├── src/                            # Codebase (python scripts)
-│   ├── generate_dataset.py         # Generates target function data
-│   ├── build_model.py              # Defines the neural network architecture
-│   ├── train_and_visualize.py      # Training loop and frame generation
-│   ├── create_gif.py               # Combines frames into a GIF
-│   ├── K-A-vs-NN/                  # New subfolder for Kolmogorov-Arnold vs NN representation
-│   │   ├── ka_representation.py    # K-A approximation script
-│   │   └── nn-representation.py    # NN approximation script (MLP model)
+├── data/                                    # datasets
+├── src/                                     # Codebase (python scripts)
+│   ├── generate_dataset.py                  # Generates target function data
+│   ├── build_model.py                       # Defines the neural network architecture
+│   ├── train_and_visualize.py               # Training loop and frame generation
+│   ├── create_gif.py                        # Combines frames into a GIF
+│   ├── K-A-vs-NN/                           # New subfolder for Kolmogorov-Arnold vs NN representation
+│   │   ├── ka_representation.py             # K-A approximation script
+│   │   ├── nn-representation.py             # NN approximation script (MLP model)
+        └── ka-vs-nn-mse-create-animation.py # script for K-A approx. (200 epochs) to then compare it with NN's
 │
 ├── assets/                         # Saved artifacts for the README
 │   └── example.gif                 # Example GIF for visualization
