@@ -95,7 +95,7 @@ The training process is visualized as a GIF:
 2. **Incremental Commits Plan**
 
   Commit 1: Add generate_dataset.py to create the dataset for f(x).
-
+  - ...
 
 
 
@@ -104,7 +104,14 @@ The training process is visualized as a GIF:
 
   - [x] 1. Kolmogorov–Arnold representation.
   - [x] 2. Approximation using B-Splines.
-  - [ ] 3. Comparisons of traditional vs modern methods.
+  - [ ] 3. Comparisons of traditional(NN/MLP) vs modern methods (K-A theorem/representation).
+
+  - Example of current output for the K-A scripts:
+  
+  > ![K-A approximating f(x)=sin(2*pi*x) using the ka-representation python script](assets/K-A-approx1.png)
+  >> ![K-A approximating f(x)=sin(2*pi*x) using the ka-representation python script with 3 control points (splines with degree 3)](assets/3-cntrl-pts_K-A-N-approximation-MSE.png)
+  >>> ![MSE of K-A approximation of f(x)=sin(2*pi*x) using the ka-representation python script with 3 control points (splines with degree 3)](assets/K-A-approx1.png)
+
   - [ ] 4. Improving the current K-A approximation with more trainable control points and parameters
   - [ ] 5. Benchmarking K-A vs MLP/NN especially for deep multi-layer nets
   - 6. ...
